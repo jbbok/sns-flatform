@@ -37,8 +37,6 @@ const Login = () => {
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/");
     } catch (e) {
-      // setError()
-
       if (e instanceof FirebaseError) {
         setError(e.message);
       }
