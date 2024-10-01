@@ -1,12 +1,11 @@
 import {
   collection,
-  getDocs,
   limit,
   onSnapshot,
   orderBy,
   query,
 } from "firebase/firestore";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { db } from "../firebase";
 import Post from "./Post";

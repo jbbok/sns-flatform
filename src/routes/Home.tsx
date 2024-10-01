@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import PostForm from "../components/PostForm";
-import TimeLine from "../components/Timeline";
+import TimeLine from "../components/TimeLine";
 
 const Wrapper = styled.div`
   height: 90vh;

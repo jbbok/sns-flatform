@@ -57,7 +57,7 @@ body {
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const init = async () => {
-    await auth.authStateReady;
+    await auth.authStateReady();
     setIsLoading(false);
   };
   useEffect(() => {

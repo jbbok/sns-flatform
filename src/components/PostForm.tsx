@@ -80,7 +80,7 @@ const PostForm = () => {
   const [post, setPost] = useState("");
   const [file, setFile] = useState<File | null>(null);
 
-  const maxFileSize = 5 * 1024 * 1024; //  = 저장 용량을 3m까지 주겠다
+  const maxFileSize = 7 * 1024 * 1024; //  = 저장 용량을 3m까지 주겠다
 
   const onChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     // console.log(e);
